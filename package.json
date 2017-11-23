@@ -1,0 +1,27 @@
+{
+  "name": "crosstown-traffic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Alexander Guski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.80",
+    "@types/snapsvg": "^0.4.29",
+    "awesome-typescript-loader": "^3.2.3",
+    "imports-loader": "^0.7.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "snapsvg-cjs": "0.0.6"
+  }
+}
